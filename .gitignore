@@ -132,3 +132,5 @@ dist
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+playbot-data
