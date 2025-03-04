@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean-crawler-data": "playwright-ai-bot crawl --clean",
     "crawl": "playwright-ai-bot crawl",
     "stories": "playwright-ai-bot stories",
     "tests": "playwright-ai-bot tests",
-    "code": "playwright-ai-bot code"
+    "code": "playwright-ai-bot code",
+    "upgrade": "npm i playwright-ai-bot@latest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "playwright-ai-bot": "^1.4.0"
+    "playwright-ai-bot": "^1.14.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.0"
